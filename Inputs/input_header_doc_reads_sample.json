@@ -1,0 +1,25 @@
+{
+  "connection_key": "request",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 201,
+  "service_label": "PRODUCTION_ORDER_CONFIRMATION_DOC",
+  "api_type": "reads",
+  "ProductionOrderConfirmation": {
+    "ProductionOrder": null,
+    "ProductionOrderItem": null,
+    "Operations": null,
+    "OperationsItem": null,
+    "OperationID": null,
+    "ConfirmationCountingID": null,
+    "DocType": "QRCODE",
+    "DocIssuerBusinessPartner": 201
+  },
+  "api_schema": "DPFMProductionOrderConfirmationDocReads",
+  "accepter": [
+    "HeaderDoc"
+  ]
+}
